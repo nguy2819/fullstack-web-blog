@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #C79E71;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #161943;
+  background-color: #C79E71;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+text {
+  font-size: 76px;
+  font-family: Copperplate, Copperplate Gothic, serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  -webkit-font-variant-ligatures: none;
+          font-variant-ligatures: none;
+  stroke: black;
+  stroke-width: 1.5px;
+  fill: black;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+svg {
+  /* margin: 0;
+    display: grid;
+    place-items: center; */
+  width: 100px;
+  position: absolute;
+  -webkit-animation: rotation 8s infinite linear;
+          animation: rotation 8s infinite linear;
+  pointer-events: none;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+button {
+  background: none;
+  border: 2px solid #C79E71;
+  outline: none;
+  position: relative;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  color: #33497B;
+  font-weight: bold;
+  letter-spacing: .2em;
+  font-size: 1.3em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: .2em;
+  width: 10em;
+  margin-right: 15px;
+}
+
+button:before {
+  position: absolute;
+  content: '';
+  background: #EFF1E6;
+  height: 100%;
+  width: 100%;
+  top: .5em;
+  left: .5em;
+  z-index: -1;
+  border-radius: .2em;
+}
+
+.container {
+  background: none;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: 'Poppins';
+  color: #33497B;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+}
+/*# sourceMappingURL=main.css.map */
