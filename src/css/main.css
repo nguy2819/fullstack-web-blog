@@ -19,7 +19,7 @@
 }
 
 .navbar h1 {
-  color: #C79E71;
+  color: #c79e71;
 }
 
 .navbar .links {
@@ -35,7 +35,7 @@
 
 .navbar a:hover {
   color: #161943;
-  background-color: #C79E71;
+  background-color: #c79e71;
   border-radius: 8px;
   font-weight: bold;
   font-size: 1.5em;
@@ -64,7 +64,7 @@ body {
   overflow: hidden;
 }
 
-svg {
+.spinning-word {
   /* margin: 0;
     display: grid;
     place-items: center; */
@@ -97,34 +97,65 @@ svg {
   }
 }
 
-button {
+.home-button {
   background: none;
-  border: 2px solid #C79E71;
+  border: 2px solid #c79e71;
   outline: none;
   position: relative;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   text-transform: uppercase;
-  color: #33497B;
+  color: #33497b;
   font-weight: bold;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-size: 1.3em;
   text-align: center;
   cursor: pointer;
-  border-radius: .2em;
+  border-radius: 0.2em;
   width: 10em;
   margin-right: 15px;
 }
 
-button:before {
+.home-button:before {
   position: absolute;
-  content: '';
-  background: #EFF1E6;
+  content: "";
+  background: #eff1e6;
   height: 100%;
   width: 100%;
-  top: .5em;
-  left: .5em;
+  top: 0.5em;
+  left: 0.5em;
   z-index: -1;
-  border-radius: .2em;
+  border-radius: 0.2em;
+}
+
+.confirm {
+  background: none;
+  border: 2px solid #c79e71;
+  outline: none;
+  position: relative;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+  color: #33497b;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 1.3em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.2em;
+  width: 10em;
+  margin-right: 15px;
+  margin-bottom: .5em;
+}
+
+.confirm:before {
+  position: absolute;
+  content: "";
+  background: #eff1e6;
+  height: 100%;
+  width: 100%;
+  top: 0.5em;
+  left: 0.5em;
+  z-index: -1;
+  border-radius: 0.2em;
 }
 
 .container {
@@ -133,8 +164,8 @@ button:before {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  font-family: 'Poppins';
-  color: #33497B;
+  font-family: "Poppins";
+  color: #33497b;
 }
 
 p {
@@ -142,5 +173,15 @@ p {
   font-weight: bold;
   -webkit-clip-path: circle(0% at 50% 50%);
           clip-path: circle(0% at 50% 50%);
+}
+
+.check {
+  fill: none;
+  stroke: #090;
+  stroke-width: 2px;
+  stroke-dasharray: 0 103;
+  position: absolute;
+  top: .3em;
+  left: .2em;
 }
 /*# sourceMappingURL=main.css.map */

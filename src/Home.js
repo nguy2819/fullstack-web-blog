@@ -10,7 +10,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <h2>Homepage</h2>
-            <button onClick={() => console.log('hello')}>Click Me</button>
+            <button class="home-button" onClick={() => console.log('hello')}>Click Me</button>
         </div>
      );
 }

@@ -4,7 +4,7 @@ const Navbar = () => {
             <h1>Cùng nhau Nắm Chặt vào thanh sắt và Tiến bước</h1>
             <div className="links">
                     <a href="/">Home</a>
-                    <a href="create">Chia sẻ</a>
+                    <a href="create">Chia sẻ / Share</a>
             </div>
         </nav>
      );

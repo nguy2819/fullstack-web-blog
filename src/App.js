@@ -21,7 +21,7 @@ function App() {
 
 //   useEffect(() => {
 //     const moveHandler = (event) => {
-//       const circleSvg = document.querySelector('svg')
+//       const circleSvg = document.querySelector('.spinning-word')
 //       setMouseY((event.clientY / 16) - (45 / 16) + 'rem');
 //       setMouseX((event.clientX / 16) - (45 / 16) + 'rem');
 //     };
@@ -39,7 +39,7 @@ function App() {
         <Home />
       </div>
       <Container />
-      {/* <svg xmlns="http://www.w3.org/2000/svg" xmlLang="en"
+      {/* <svg className="spinning-word" xmlns="http://www.w3.org/2000/svg" xmlLang="en"
         xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
         <title>Circular Text Path</title>
 
